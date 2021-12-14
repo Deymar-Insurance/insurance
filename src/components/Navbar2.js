@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from '../components/logo.png';
 
-const Navbar = () => {
+const Navbar2 = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-black'>
       <div className='container'>
-        {/* <a
+        <a
           className='navbar-brand'
           href='https://goo.gl/maps/N7ViGVcjDR6A8qPS7'
           target='_blank'
@@ -23,31 +23,17 @@ const Navbar = () => {
           aria-label='Toggle navigation'
         >
           <span className='navbar-toggler-icon'></span>
-        </button> */}
+        </button>
         <div
           className='collapse navbar-collapse'
           id='navbarSupportedContent'
         >
           <ul className='navbar-nav ms-auto'>
-            <li className='nav-item active'>
-              <a className='nav-link' href='#'>
-                Home <span className='sr-only'></span>
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#'>
-                Request Quote
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#'>
-                Find our location
-              </a>
-            </li>
             <li className='nav-item'>
               <a className='nav-link' href='#'>
                 About Us
               </a>
+              <a href='tel:630-994-0722'>+1(630)994-0722</a>
             </li>
           </ul>
         </div>
@@ -56,4 +42,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;
