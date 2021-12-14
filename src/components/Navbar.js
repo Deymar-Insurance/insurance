@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-black'>
       <div className='container'>
-        {/* <a
+        <a
           className='navbar-brand'
           href='https://goo.gl/maps/N7ViGVcjDR6A8qPS7'
           target='_blank'
@@ -23,7 +23,7 @@ const Navbar = () => {
           aria-label='Toggle navigation'
         >
           <span className='navbar-toggler-icon'></span>
-        </button> */}
+        </button>
         <div
           className='collapse navbar-collapse'
           id='navbarSupportedContent'
