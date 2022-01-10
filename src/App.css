@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 :root {
-  --primary-white: #fff;
+  --primary-gold: rgb(242, 222, 178);
 }
 
 body {
@@ -28,7 +28,7 @@ nav ul li {
 .navbar-nav>li>a {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
-  color: var(--primary-white) !important;
+  color: var(--primary-gold) !important;
 
 }
 

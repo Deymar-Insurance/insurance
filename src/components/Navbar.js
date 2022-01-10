@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from '../components/logo.png';
+import logo from '../components/logo5.png';
+import logo2 from '../components/logo4.png';
 
 const Navbar = () => {
   return (
@@ -11,8 +12,17 @@ const Navbar = () => {
           target='_blank'
           rel='noreferrer'
         >
-          <img classNamer='logo' src={logo} alt='logo' />
+          <img className='logo2' src={logo2} alt='logo2' />
         </a>
+        <a
+          className='navbar-brand'
+          href='https://goo.gl/maps/N7ViGVcjDR6A8qPS7'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <img className='logo' src={logo} alt='logo' />
+        </a>
+
         <button
           className='navbar-toggler'
           type='button'
