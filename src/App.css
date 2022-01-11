@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 :root {
-  --primary-gold: rgb(242, 222, 178);
+  --primary-gold: rgb(237, 201, 125);
+  --primary-white: #ffffff;
+  --primary-light-grey: #f4f4f4;
+  --primary-orange: #FF871A;
+  --primary-green: #4AB834;
+  --primary-dark: rgb(255, 255, 255, 0);
+  --primary-dark2: rgb(52, 58, 64);
+  --primary-grey: rgb(44, 48, 52);
+  --primary-black: rgb(6, 7, 7);
+  --primary-med-grey: rgb(107, 113, 120);
+  --primary-red: #f04019;
+  --primary-hover-red: #bf2402;
 }
 
 body {
@@ -10,8 +21,13 @@ body {
 }
 
 /************************Navbar***********************/
+nav {
+  z-index: 2;
+}
+
 .logo {
   width: 16.25rem;
+  height: auto;
 }
 
 /*********** MENU LINKS ***************/
@@ -34,4 +50,23 @@ nav ul li {
 
 .navbar-brand {
   max-width: 17.25rem;
+  padding: 0 !important;
+  /* padding-bottom: 0.2rem !important; */
+  height: 4rem !important;
+}
+
+@media(max-width: 767px) {
+  .navbar-brand {
+    max-width: 5rem;
+  }
+}
+
+.navbar-nav>li>a.active, .navbar-nav>li>a:focus {
+  border-bottom: 0.1875rem solid var(--primary-gold);
+}
+
+.navbar-nav>li>a:hover {
+  border-bottom: 0.1875rem solid var(--primary-gold);
+  transition: transform 250ms;
+  transform: translateY(0.3rem);
 }

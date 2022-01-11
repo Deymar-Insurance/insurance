@@ -1,19 +1,10 @@
 import React from 'react';
 import logo from '../components/logo5.png';
-import logo2 from '../components/logo4.png';
 
 const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-black'>
       <div className='container'>
-        <a
-          className='navbar-brand'
-          href='https://goo.gl/maps/N7ViGVcjDR6A8qPS7'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <img className='logo2' src={logo2} alt='logo2' />
-        </a>
         <a
           className='navbar-brand'
           href='https://goo.gl/maps/N7ViGVcjDR6A8qPS7'
@@ -46,7 +37,7 @@ const Navbar = () => {
             </li>
             <li className='nav-item'>
               <a className='nav-link' href='#'>
-                Request Quote
+                Request a Quote
               </a>
             </li>
             <li className='nav-item'>
