@@ -1,9 +1,12 @@
 import React from 'react';
 import logo from '../components/logo5.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+/* eslint-disable */
 
 const Navbar = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-black'>
+    <nav className='navbar navbar-expand-lg navbar-light bg-black fixed-top'>
       <div className='container'>
         <a
           className='navbar-brand'
@@ -23,7 +26,10 @@ const Navbar = () => {
           aria-expanded='false'
           aria-label='Toggle navigation'
         >
-          <span className='navbar-toggler-icon'></span>
+          <FontAwesomeIcon
+            icon={faBars}
+            style={{ color: 'rgb(237, 201, 125)' }}
+          />
         </button>
         <div
           className='collapse navbar-collapse'
