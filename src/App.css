@@ -72,3 +72,11 @@ nav ul li {
   transition: transform 250ms;
   transform: translateY(0.3rem);
 }
+
+/*********** HEADER ***************/
+.header-wraper {
+  position: relative;
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+
+}
