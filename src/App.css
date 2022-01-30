@@ -45,12 +45,14 @@ nav ul li {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   color: var(--primary-gold) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+  border-bottom: 0.1875rem solid var(--primary-dark);
 
 }
 
 .navbar-brand {
   max-width: 17.25rem;
-  padding: 0 !important;
+  /* padding: 0 !important; */
   /* padding-bottom: 0.2rem !important; */
   height: 4rem !important;
 }
