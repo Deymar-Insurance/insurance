@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Josefin Sans'sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -76,7 +76,22 @@ nav ul li {
 /*********** HEADER ***************/
 .header-wraper {
   position: relative;
-  background: url(background.jpg) no-repeat;
+  background: url(background2.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.main-info h1 {
+  color: var(--primary-gold);
+  text-transform: uppercase;
 }
