@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../components/logo5.png';
+
+//REACT FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 /* eslint-disable */
