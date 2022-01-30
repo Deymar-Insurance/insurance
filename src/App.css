@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Josefin Sans'sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -71,4 +71,27 @@ nav ul li {
   border-bottom: 0.1875rem solid var(--primary-gold);
   transition: transform 250ms;
   transform: translateY(0.3rem);
+}
+
+/*********** HEADER ***************/
+.header-wraper {
+  position: relative;
+  background: url(background2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.main-info h1 {
+  color: var(--primary-gold);
+  text-transform: uppercase;
 }

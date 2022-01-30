@@ -45,17 +45,17 @@ const Navbar = () => {
             </li>
             <li className='nav-item'>
               <a className='nav-link' href='#'>
-                Request a Quote
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#'>
-                Find our location
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#'>
                 About Us
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-link' href='#'>
+                Reviews
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-link' href='#'>
+                Request a Quote
               </a>
             </li>
           </ul>
