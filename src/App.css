@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 :root {
-  --primary-gold: rgb(237, 201, 125);
+  --primary-gold: rgb(235, 196, 114);
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
   --primary-orange: #FF871A;
   --primary-green: #4AB834;
   --primary-dark: rgb(255, 255, 255, 0);
   --primary-dark2: rgb(36, 39, 41);
-  --primary-grey: rgb(44, 48, 52);
+  --primary-grey: rgb(186, 191, 195);
   --primary-black: rgb(6, 7, 7);
   --primary-med-grey: rgb(107, 113, 120);
   --primary-red: #f04019;
@@ -106,7 +106,7 @@ nav ul li {
 
 .profile-img {
   width: 16rem;
-  border-radius: 30%;
+  border-radius: 15%;
   padding: .5rem;
   margin-bottom: 2rem;
   border: 1px solid var(--primary-gold);
@@ -128,17 +128,17 @@ nav ul li {
 .services {
   text-align: center;
   padding-bottom: 2.5rem;
-  background-color: var(--primary-dark2);
+  background-color: var(--primary-grey);
   height: 80vh;
 }
 
 .services h1 {
-  color: var(--primary-gold);
+  color: var(--primary-black);
   text-transform: uppercase;
 }
 
 .services h3 {
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 .services .circle {
@@ -173,9 +173,10 @@ nav ul li {
 
 .services .box:hover {
   background: var(--primary-gold);
-  border-bottom: 0.3125rem solid var(--primary-white);
+  /* border-bottom: 0.3125rem solid var(--primary-white); */
   transition: transform 250ms;
-  transform: translateY(0.3rem);
+  transform: translateY(-5px);
+  box-shadow: 4px 8px 15px 2px rgba(0, 0, 0, 0.3);
 }
 
 .services .box:hover .icon {
