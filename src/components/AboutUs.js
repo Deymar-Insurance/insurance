@@ -1,16 +1,23 @@
 import React from 'react';
-import author from '../src/Marina.jpg';
+import author from '../Marina.jpg';
 
 const AboutUs = () => {
   return (
     <div className='container py-5'>
       <div className='row'>
         <div className='col-lg-6 col-xm-12'>
-          <img src={author} alt='Owner...' />
+          <div className='photo-wrap mb-5'>
+            <img
+              className='profile-img'
+              src={author}
+              alt='Owner...'
+            />
+          </div>
         </div>
+
         <div className='col-lg-6 col-xm-12'>
-          <h1>About Me</h1>
-          {/* <p>
+          <h1 className='about-heading'>About Us</h1>
+          <p>
             Hello and welcome to the 77th annual Golden Globe Awards,
             live from the Beverly Hilton Hotel here in Los Angeles.
             I’m Ricky Gervais, thank you. You’ll be pleased to know
@@ -29,7 +36,7 @@ const AboutUs = () => {
             Huffman. No, shush. It’s her daughter I feel sorry for.
             OK? That must be the most embarrassing thing that’s ever
             happened to her. And her dad was in Wild Hogs.
-          </p> */}
+          </p>
         </div>
       </div>
     </div>

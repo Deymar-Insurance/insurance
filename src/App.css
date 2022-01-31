@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif !important;
 
 }
 
@@ -94,4 +94,31 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-gold);
   text-transform: uppercase;
+}
+
+/*********** About Us ***************/
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+
+.profile-img {
+  width: 16rem;
+  border-radius: 30%;
+  padding: .5rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--primary-gold);
+}
+
+.about-heading {
+  color: var(--primary-gold);
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 15rem;
+  }
 }
