@@ -7,7 +7,7 @@
   --primary-orange: #FF871A;
   --primary-green: #4AB834;
   --primary-dark: rgb(255, 255, 255, 0);
-  --primary-dark2: rgb(52, 58, 64);
+  --primary-dark2: rgb(36, 39, 41);
   --primary-grey: rgb(44, 48, 52);
   --primary-black: rgb(6, 7, 7);
   --primary-med-grey: rgb(107, 113, 120);
@@ -121,4 +121,75 @@ nav ul li {
   .profile-img {
     width: 15rem;
   }
+}
+
+/**********Services*******/
+
+.services {
+  text-align: center;
+  padding-bottom: 2.5rem;
+  background-color: var(--primary-dark2);
+  height: 80vh;
+}
+
+.services h1 {
+  color: var(--primary-gold);
+  text-transform: uppercase;
+}
+
+.services h3 {
+  font-size: 2rem;
+}
+
+.services .circle {
+  position: relative;
+  margin: 0.375rem auto;
+  background: var(--primary-gold);
+  border-radius: 30%;
+  width: 4rem;
+  height: 4rem;
+}
+
+
+.services .icon {
+  font-size: 1.8rem;
+  color: var(--primary-black);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services .box {
+  height: 16rem;
+  border-bottom: 0.3125rem solid var(--primary-gold);
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  border-radius: 12%;
+  background: var(--primary-white);
+  text-transform: uppercase;
+
+}
+
+.services .box:hover {
+  background: var(--primary-gold);
+  border-bottom: 0.3125rem solid var(--primary-white);
+  transition: transform 250ms;
+  transform: translateY(0.3rem);
+}
+
+.services .box:hover .icon {
+  color: var(--primary-black);
+}
+
+.services .box:hover .circle {
+  background: var(--primary-white);
+}
+
+.services .box:hover p {
+  color: var(--primary-white);
+}
+
+.services .box:hover h3 {
+  color: var(--primary-black);
 }
