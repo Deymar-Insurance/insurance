@@ -2,6 +2,7 @@
 
 :root {
   --primary-gold: rgb(235, 196, 114);
+  --primary-gold2: rgb(232, 175, 54);
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
   --primary-orange: #FF871A;
@@ -270,7 +271,7 @@ nav ul li {
 /**********Contacts******/
 
 .contacts {
-  background: var(--primary-black);
+  background: var(--primary-dark2);
   padding: 3rem 0;
 }
 
@@ -286,6 +287,7 @@ nav ul li {
 }
 
 /**********Inputs******/
+
 
 .contacts input, .contacts textarea {
   width: 100%;
@@ -304,6 +306,10 @@ nav ul li {
 
 .contacts .container {
   padding: 4rem 0;
+  background: var(--primary-black);
+  border-bottom: 0.3125rem solid var(--primary-gold);
+  margin-bottom: 1.875rem;
+
 }
 
 .contacts input:focus, .contacts textarea:focus {
@@ -318,10 +324,10 @@ nav ul li {
 
 .line {
   position: relative;
-  top: -0.8rem;
+  top: -0.7rem;
   width: 0;
-  height: 0.125rem;
-  background: var(--primary-orange);
+  height: 0.2rem;
+  background: var(--primary-gold2);
   display: inline-block;
 }
 
@@ -339,13 +345,15 @@ textarea.form-control {
 }
 
 .contacts button {
-  margin: 1rem 0 0 0;
-  width: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 30%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   position: absolute;
   transform: translateX(-50%);
-  background: none;
+  background: var(--primary-gold2);
+  text-transform: uppercase;
 }
 
 .contacts button:hover {
@@ -356,7 +364,7 @@ textarea.form-control {
   position: absolute;
   transform: translateX(-50%);
   transition: 200ms ease-in-out;
-  background: var(--primary-red);
+  background: var(--primary-gold);
 }
 
 .error-message {
