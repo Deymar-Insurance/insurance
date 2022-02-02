@@ -15,7 +15,7 @@ const Contacts = () => {
 
   const serviceID = 'service_ID3';
 
-  const templateID = 'template_bm5e2mo';
+  const templateID = 'template_1';
 
   const userID = 'user_9ioOXoLGkX2NTLcAXbSV6';
 
