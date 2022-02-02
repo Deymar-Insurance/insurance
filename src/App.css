@@ -272,7 +272,7 @@ nav ul li {
 
 .contacts {
   background: var(--primary-dark2);
-  padding: 3rem 0;
+  padding: 4.5rem 0;
 }
 
 .contacts h1 {
@@ -344,8 +344,7 @@ textarea.form-control {
 }
 
 .contacts button {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0 0 0;
   width: 30%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
