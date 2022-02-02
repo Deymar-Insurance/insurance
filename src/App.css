@@ -307,7 +307,6 @@ nav ul li {
 .contacts .container {
   padding: 4rem 0;
   background: var(--primary-black);
-  border-bottom: 0.3125rem solid var(--primary-gold);
   margin-bottom: 1.875rem;
 
 }
@@ -352,19 +351,19 @@ textarea.form-control {
   padding-bottom: 0.5rem;
   position: absolute;
   transform: translateX(-50%);
-  background: var(--primary-gold2);
+  background: var(--primary-gold);
   text-transform: uppercase;
 }
 
 .contacts button:hover {
   margin: 1rem 0 0 0;
-  width: 50%;
+  width: 30%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   position: absolute;
   transform: translateX(-50%);
   transition: 200ms ease-in-out;
-  background: var(--primary-gold);
+  background: var(--primary-gold2);
 }
 
 .error-message {
