@@ -306,7 +306,7 @@ nav ul li {
 
 .contacts .container {
   padding: 4rem 0;
-  background: var(--primary-black);
+  background: transparent;
   margin-bottom: 1.875rem;
 
 }
@@ -398,18 +398,18 @@ textarea.form-control {
 
 .footer {
   background: var(--primary-black);
-  color: var(--primary-med-grey);
+  color: var(--primary-gold);
   padding: 1.5rem;
   font-size: 1.25rem;
 }
 
 .footer a {
-  color: var(--primary-med-grey);
+  color: var(--primary-gold);
   text-decoration: none;
 }
 
 .footer a:hover {
-  color: var(--primary-orange);
+  color: var(--primary-white);
   text-decoration: none;
   cursor: pointer;
 }
@@ -419,8 +419,9 @@ textarea.form-control {
 }
 
 a.instagram {
-  color: #0e76a8 !important;
+  color: #d92e7f !important;
   margin: 10px;
+
 }
 
 a.facebook {

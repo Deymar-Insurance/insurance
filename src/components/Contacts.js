@@ -40,14 +40,14 @@ const Contacts = () => {
       .send(serviceID, templateID, variables, userID)
       .then(() => {
         setSuccessMessage(
-          "Form sent successfully! I'll contact you as soon as possible."
+          "Form sent successfully! We'll contact you as soon as possible."
         );
       })
       .catch((err) => console.error(`Something went wrong ${err}`));
   };
 
   return (
-    <div id='contacts' className='contacts'>
+    <div id='quote' className='contacts'>
       <div className='text-center'>
         <h1>Request a Quote</h1>
         <p>
@@ -163,14 +163,14 @@ const Contacts = () => {
               <span className='error-message'>
                 {errors.description && errors.description.message}
               </span>
-            </div>
-            <div className='text-center'>
-              <button
-                className='btn-main-offer contact-btn'
-                type='submit'
-              >
-                send request
-              </button>
+              <div className='text-center'>
+                <button
+                  className='btn-main-offer contact-btn'
+                  type='submit'
+                >
+                  send request
+                </button>
+              </div>
             </div>
           </div>
         </form>
