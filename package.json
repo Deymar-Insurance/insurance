@@ -16,6 +16,7 @@
     "react-hook-form": "^7.25.3",
     "react-responsive-carousel": "^3.2.22",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

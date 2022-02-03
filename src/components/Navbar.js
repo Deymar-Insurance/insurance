@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../components/logo5.png';
+import { Link } from 'react-scroll';
 
 //REACT FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -39,29 +40,59 @@ const Navbar = () => {
         >
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item active'>
-              <a className='nav-link' href='#'>
+              <Link
+                smooth={true}
+                to='home'
+                offset={-80}
+                className='nav-link'
+                href='#'
+              >
                 Home <span className='sr-only'></span>
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
+              <Link
+                smooth={true}
+                to='about-us'
+                offset={-80}
+                className='nav-link'
+                href='#'
+              >
                 About Us
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
+              <Link
+                smooth={true}
+                to='services'
+                offset={-80}
+                className='nav-link'
+                href='#'
+              >
                 Our Services
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
+              <Link
+                smooth={true}
+                to='reviews'
+                offset={-80}
+                className='nav-link'
+                href='#'
+              >
                 Reviews
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
+              <Link
+                smooth={true}
+                to='quote'
+                offset={-80}
+                className='nav-link'
+                href='#'
+              >
                 Request a Quote
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
