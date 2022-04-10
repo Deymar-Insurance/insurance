@@ -5,9 +5,7 @@ const Header = () => {
   return (
     <>
       <div id='home' className='header-wraper'>
-        <div className='main-info'>
-          <HeaderCarousel />
-        </div>
+        <HeaderCarousel />
       </div>
     </>
   );

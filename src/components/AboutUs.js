@@ -18,24 +18,24 @@ const AboutUs = () => {
         <div className='col-lg-6 col-xm-12'>
           <h1 className='about-heading'>About Us</h1>
           <p>
-            Hello and welcome to the 77th annual Golden Globe Awards,
-            live from the Beverly Hilton Hotel here in Los Angeles.
-            I’m Ricky Gervais, thank you. You’ll be pleased to know
-            this is the last time I’m hosting these awards, so I don’t
-            care anymore. I’m joking. I never did. I’m joking, I never
-            did. NBC clearly don’t care either — fifth time. I mean,
-            Kevin Hart was fired from the Oscars for some offensive
-            tweets — hello? Lucky for me, the Hollywood Foreign Press
-            can barely speak English and they’ve no idea what Twitter
-            is, so I got offered this gig by fax. Let’s go out with a
-            bang, let’s have a laugh at your expense. Remember,
-            they’re just jokes. We’re all gonna die soon and there’s
-            no sequel, so remember that. But you all look lovely all
-            dolled up. You came here in your limos. I came here in a
-            limo tonight and the license plate was made by Felicity
-            Huffman. No, shush. It’s her daughter I feel sorry for.
-            OK? That must be the most embarrassing thing that’s ever
-            happened to her. And her dad was in Wild Hogs.
+            Hello, my name is Marina and I am happy to welcome you to
+            the Deymar Insurance Family. Correct, we are more of a
+            family, than just an agency. It's not about being
+            family-owned, it's about being family to our clients and
+            always being there to help. {' '}
+          </p>
+          <p>
+            I devoted many years of work and all my love and time to
+            make Deymar the most professional and knowledgeable agency
+            in the whole Chicagoland area. Since insurance requires a
+            lot of specific knowledge and experience, my mission is to
+            make it easy, understandable and affordable to all
+            customers with no regards to knowledge and background. 
+          </p>
+          <p>
+            Today we offer the widest range of services to protect
+            your family and your business. Property, auto, business or
+            health - you name it, we can cover it.
           </p>
         </div>
       </div>
