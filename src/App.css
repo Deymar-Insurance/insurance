@@ -86,84 +86,55 @@ nav ul li {
   margin: 0;
   padding: 0;
   font-family: 'Dosis', sans-serif;
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: 800;
 }
 
-.card-container {
+.main-info {
   display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 27px;
-}
-
-.card {
-  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 30px;
-  width: 335px;
-  height: 230px;
-  background-color: rgba(243, 235, 228, 0.51);
-  border-radius: 1px;
-  box-shadow: 1px 6px 8px 0px #615f5f2e;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif !important;
+  z-index: 1;
 }
 
-
-h1, h2, h3 {
-  margin: 0;
-}
-
-header h1>span {
-  color: rgba(90, 87, 84, 0.281);
-  font-size: 0.75em;
-}
-
-header h2>span, header h3>span {
-  font-size: 1.75rem;
-  visibility: hidden;
-}
-
-header h3 {
-  font-size: 0.8em;
+.main-info h1 {
+  color: var(--primary-gold) !important;
+  font-family: 'Josefin Sans', sans-serif !important;
   text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 800;
 }
 
-a {
-  color: #255681;
+/********HEADER MAIN OFFER BUTTON**********/
+
+.btn-main-offer {
+  border: 1px solid var(--primary-gold);
+  text-transform: uppercase;
+  border-radius: 0.125rem;
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+  background-color: var(--primary-gold);
+  color: var(--primary-black);
   text-decoration: none;
-  text-transform: uppercase;
+  margin: 2rem;
 }
 
-a:hover {
-  color: #1b4163;
-}
-
-.buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.buttons>a {
-  width: 120px;
-  height: 32px;
-  display: block;
-  line-height: 32px;
-  padding: 6px;
-  border-radius: 1px;
-}
-
-.buttons>a>img {
-  width: 32px;
-  height: 32px;
-  padding: 0 8px 0 4px;
-  vertical-align: middle;
-}
-
-
-.buttons>a:hover {
-  box-shadow: 0 0 8px 0px #33313147;
+.btn-main-offer:hover {
+  border: 1px solid var(--primary-gold2);
+  background-color: var(--primary-gold2);
+  color: var(--primary-black);
+  text-decoration: none;
+  margin: 2rem;
+  transform: translateY(10px);
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 4px 8px 15px 2px rgba(0, 0, 0, 0.3);
 }
 
 
