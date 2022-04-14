@@ -113,6 +113,13 @@ nav ul li {
   font-weight: 800;
 }
 
+.logo2 {
+  width: 30rem;
+  height: auto;
+  padding-top: 10% !important;
+}
+
+
 /********HEADER MAIN OFFER BUTTON**********/
 
 .btn-main-offer {
