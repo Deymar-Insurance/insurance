@@ -53,17 +53,6 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link
                 smooth={true}
-                to='about-us'
-                offset={-80}
-                className='nav-link'
-                href='#'
-              >
-                About Us
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                smooth={true}
                 to='services'
                 offset={-80}
                 className='nav-link'
@@ -83,6 +72,18 @@ const Navbar = () => {
                 Reviews
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                smooth={true}
+                to='about-us'
+                offset={-80}
+                className='nav-link'
+                href='#'
+              >
+                About Us
+              </Link>
+            </li>
+
             {/* <li className='nav-item'>
               <Link
                 smooth={true}
