@@ -90,13 +90,21 @@ nav ul li {
   font-weight: 800;
 }
 
+.backgroundFrame {
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  padding: 2rem;
+  z-index: 1;
+  position: absolute;
+}
+
 .main-info {
   display: flex;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 50%;
+  left: 30%;
+  right: 30%;
+  bottom: 40%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -116,7 +124,7 @@ nav ul li {
 .logo2 {
   width: 30rem;
   height: auto;
-  padding-top: 10% !important;
+  padding-bottom: 1rem;
 }
 
 
@@ -468,6 +476,8 @@ a.instagram {
   margin: 10px;
 
 }
+
+
 
 a.facebook {
   color: #4968ad !important;

@@ -83,7 +83,7 @@ const Navbar = () => {
                 Reviews
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 smooth={true}
                 to='quote'
@@ -93,7 +93,7 @@ const Navbar = () => {
               >
                 Request a Quote
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import logo from '../images/Logo/logo2.png';
 import BackgroundSlider from '../components/BackgroundSlider';
 
-import front1 from './../images/front/image3.png';
-import front2 from './../images/front/image4.png';
-import front3 from './../images/front/image5.png';
-import front4 from './../images/front/image6.png';
+import front1 from './../images/front/image1.png';
+import front2 from './../images/front/image2.png';
+import front3 from './../images/front/image3.png';
+import front4 from './../images/front/image4.png';
 
 class Header extends Component {
   render() {
@@ -17,13 +17,15 @@ class Header extends Component {
           transition={2}
         />
         <div className='main-info'>
-          <div>
-            <img className='logo2' src={logo} alt='logo' />
+          <div className='backgroundFrame'>
+            <div>
+              <img className='logo2' src={logo} alt='logo' />
+            </div>
+            {/* <h1>built to perfection</h1> */}
+            <a href='#quote' className='btn-main-offer'>
+              Request a Quote
+            </a>
           </div>
-          {/* <h1>built to perfection</h1> */}
-          <a href='#quote' className='btn-main-offer'>
-            Request a Quote
-          </a>
         </div>
       </div>
     );
