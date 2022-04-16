@@ -58,7 +58,7 @@ nav ul li {
   max-width: 17.25rem;
   /* padding: 0 !important; */
   /* padding-bottom: 0.2rem !important; */
-  height: 4rem !important;
+  height: 5rem !important;
 }
 
 @media(max-width: 767px) {
@@ -94,7 +94,7 @@ nav ul li {
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
   padding: 2rem;
-  z-index: 1;
+  /* z-index: 1; */
   position: absolute;
 }
 
@@ -152,34 +152,6 @@ nav ul li {
   box-shadow: 4px 8px 15px 2px rgba(0, 0, 0, 0.3);
 }
 
-
-
-/*********** About Us ***************/
-
-.photo-wrap {
-  display: flex;
-  justify-content: center;
-}
-
-
-.profile-img {
-  width: 16rem;
-  border-radius: 2%;
-  padding: .1rem;
-  /* margin-bottom: 0rem; */
-  border: 1px solid var(--primary-gold);
-}
-
-.about-heading {
-  color: var(--primary-gold);
-  text-transform: uppercase;
-}
-
-@media(max-width: 468px) {
-  .profile-img {
-    width: 15rem;
-  }
-}
 
 /**********Services*******/
 
@@ -319,7 +291,33 @@ nav ul li {
   margin-top: 3% !important;
 }
 
-/**********Contacts******/
+/*********** About Us ***************/
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 2%;
+  padding: 0.1rem;
+  /* margin-bottom: 0rem; */
+  border: 1px solid var(--primary-gold);
+}
+
+.about-heading {
+  color: var(--primary-gold);
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 15rem;
+  }
+}
+
+/**********Reques-Quote******/
 
 .contacts {
   background: var(--primary-dark2);

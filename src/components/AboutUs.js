@@ -14,7 +14,6 @@ const AboutUs = () => {
             />
           </div>
         </div>
-
         <div className='col-lg-6 col-xm-12'>
           <h1 className='about-heading'>About Us</h1>
           <p>

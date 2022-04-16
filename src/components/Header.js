@@ -6,13 +6,14 @@ import front1 from './../images/front/image1.png';
 import front2 from './../images/front/image2.png';
 import front3 from './../images/front/image3.png';
 import front4 from './../images/front/image4.png';
+import front5 from './../images/front/image6.png';
 
 class Header extends Component {
   render() {
     return (
       <div id='home' className='header-wraper'>
         <BackgroundSlider
-          images={[front1, front2, front3, front4]}
+          images={[front1, front2, front3, front4, front5]}
           duration={8}
           transition={2}
         />
@@ -21,7 +22,6 @@ class Header extends Component {
             <div>
               <img className='logo2' src={logo} alt='logo' />
             </div>
-            {/* <h1>built to perfection</h1> */}
             <a href='#quote' className='btn-main-offer'>
               Request a Quote
             </a>

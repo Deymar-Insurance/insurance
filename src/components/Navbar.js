@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../components/logo5.png';
+import logo from '../components/logo4.png';
 import { Link } from 'react-scroll';
 
 //REACT FONT AWESOME IMPORTS
