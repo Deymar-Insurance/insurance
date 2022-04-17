@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../components/logo5.png';
+import logo from '../components/logo4.png';
 import { Link } from 'react-scroll';
 
 //REACT FONT AWESOME IMPORTS
@@ -53,17 +53,6 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link
                 smooth={true}
-                to='about-us'
-                offset={-80}
-                className='nav-link'
-                href='#'
-              >
-                About Us
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                smooth={true}
                 to='services'
                 offset={-80}
                 className='nav-link'
@@ -76,7 +65,7 @@ const Navbar = () => {
               <Link
                 smooth={true}
                 to='reviews'
-                offset={-80}
+                offset={-90}
                 className='nav-link'
                 href='#'
               >
@@ -86,12 +75,12 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link
                 smooth={true}
-                to='quote'
+                to='about-us'
                 offset={-80}
                 className='nav-link'
                 href='#'
               >
-                Request a Quote
+                About Us
               </Link>
             </li>
           </ul>
