@@ -65,7 +65,7 @@ const Navbar = () => {
               <Link
                 smooth={true}
                 to='reviews'
-                offset={-80}
+                offset={-90}
                 className='nav-link'
                 href='#'
               >
@@ -83,18 +83,6 @@ const Navbar = () => {
                 About Us
               </Link>
             </li>
-
-            {/* <li className='nav-item'>
-              <Link
-                smooth={true}
-                to='quote'
-                offset={-80}
-                className='nav-link'
-                href='#'
-              >
-                Request a Quote
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>

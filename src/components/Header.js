@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import logo from '../images/Logo/logo2.png';
 import BackgroundSlider from '../components/BackgroundSlider';
+import { Link } from 'react-scroll';
 
-import front1 from './../images/front/image1.png';
-import front2 from './../images/front/image2.png';
-import front3 from './../images/front/image3.png';
-import front4 from './../images/front/image4.png';
-import front5 from './../images/front/image6.png';
+import front1 from './../images/header-background/image1.png';
+import front2 from './../images/header-background/image2.png';
+import front3 from './../images/header-background/image3.png';
+import front4 from './../images/header-background/image4.png';
+import front5 from './../images/header-background/image5.png';
 
 class Header extends Component {
   render() {
@@ -22,9 +23,17 @@ class Header extends Component {
             <div>
               <img className='logo2' src={logo} alt='logo' />
             </div>
-            <a href='#quote' className='btn-main-offer'>
-              Request a Quote
-            </a>
+            <div href='#quote' className='btn-main-offer'>
+              <Link
+                smooth={true}
+                to='quote'
+                offset={-80}
+                className='nav-link'
+                href='#'
+              >
+                Request a Quote
+              </Link>
+            </div>
           </div>
         </div>
       </div>
