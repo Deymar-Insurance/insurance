@@ -163,13 +163,14 @@ const Contacts = () => {
               <span className='error-message'>
                 {errors.description && errors.description.message}
               </span>
-              <div className='text-center'></div>
-              <button
-                className='btn-main-offer contact-btn'
-                type='submit'
-              >
-                send request
-              </button>
+              <div className='text-center'>
+                <button
+                  className='btn-main-offer contact-btn'
+                  type='submit'
+                >
+                  send request
+                </button>
+              </div>
             </div>
           </div>
         </form>
