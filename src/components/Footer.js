@@ -35,20 +35,20 @@ const Footer = () => {
                 <br />
                 <Link
                   smooth={true}
-                  to='about-us'
-                  offset={-70}
-                  className='footer-nav'
-                >
-                  About Us
-                </Link>
-                <br />
-                <Link
-                  smooth={true}
                   to='services'
                   offset={-70}
                   className='footer-nav'
                 >
                   Our Services
+                </Link>
+                <br />
+                <Link
+                  smooth={true}
+                  to='reviews'
+                  offset={-70}
+                  className='footer-nav'
+                >
+                  Reviews
                 </Link>
               </div>
             </div>
