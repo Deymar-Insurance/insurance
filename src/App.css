@@ -16,6 +16,7 @@
   --primary-red: #f04019;
   --primary-hover-red: #bf2402;
   --primary-dark-grey: rgb(33, 33, 34);
+  --primary-placeholder: #5d6469;
 }
 
 body {
@@ -364,6 +365,10 @@ nav ul li {
   margin-bottom: 1rem;
 }
 
+.contacts input::placeholder, .contacts textarea::placeholder {
+  color: var(--primary-placeholder);
+}
+
 .contacts .container {
   padding: 4rem 0;
   background: transparent;
@@ -377,8 +382,12 @@ nav ul li {
   border-bottom: 0.125rem solid var(--primary-med-grey);
 }
 
-.contacts textarea {
+.contacts .add-height {
   height: 12.2rem !important;
+}
+
+.contacts textarea {
+  height: 8.9rem !important;
 }
 
 .line {
@@ -404,7 +413,7 @@ textarea.form-control {
 }
 
 .contacts button {
-  margin: 1rem 0 0 0;
+  margin: 2rem 0 0 0;
   width: 30%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -417,12 +426,12 @@ textarea.form-control {
 }
 
 .contacts button:hover {
-  margin: 1rem 0 0 0;
+  margin: 1.95rem 0 0 0;
   width: 30%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   position: absolute;
-  transform: translateX(-50%);
+  transform: translateX(-50%); 
   transition: 200ms ease-in-out;
   background: var(--primary-gold2);
 }
@@ -438,6 +447,40 @@ textarea.form-control {
   font-size: 1.25rem;
   font-weight: 500;
   color: var(--primary-green);
+}
+
+.contacts .checkBox {
+  display: flex;
+  /* align-items: center; */
+  margin: 1px 0px 0px 0px;
+}
+
+.contacts .checkBox input {
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+
+.page {
+  padding-top: 140px;
+  background-color: var(--bs-body-bg);
+  max-width: 100%;
+  width: 100%;
+}
+
+.contacts .checkBox label {
+  color: var(--primary-med-grey);
+  line-height: initial;
+}
+
+.contacts a {
+  color: var(--primary-light-grey);
+}
+
+.contacts a:hover {
+  text-decoration: none;
 }
 
 /**********Media******/
@@ -459,6 +502,7 @@ textarea.form-control {
 /**********Footer******/
 
 .footer {
+  margin-top: auto;
   background: var(--primary-black);
   color: var(--primary-gold);
   padding: 1.5rem;
@@ -501,4 +545,71 @@ a.social {
 
 a.social:hover {
   transform: translateY(-4px);
+}
+
+
+.pageTitle {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.page h2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.page p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.page ul {
+  list-style: none;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.page a {
+  text-decoration: none;
+  color: var(--bs-body-color);
+  width: 100%;
+  word-wrap: break-word;
+}
+.page a:hover {
+  text-decoration: underline;
+}
+
+@media(max-width: 467.98px) {
+
+  .contacts {
+    padding: 4.5rem 0 6rem 0;
+  }
+
+  .page {
+    padding-top: 130px;
+  }
+  
+  .pageTitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .page h2 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  
+  .page p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
 }
