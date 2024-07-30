@@ -52,7 +52,7 @@ const Contacts = () => {
         <h1>Request a Quote</h1>
         <p>
           Please fill up the form and we will contact you as soon as
-          possble.
+          possible.
         </p>
         <span className='success-message'>{successMessage}</span>
       </div>
@@ -144,7 +144,7 @@ const Contacts = () => {
                 {errors.subject && errors.subject.message}
               </span>
             </div>
-            <div className='col-md-6 col-xs-12'>
+            <div className='col-md-6 col-xs-12 add-height'>
               {/*Description*/}
               <div className='text-center'>
                 <textarea
@@ -163,6 +163,26 @@ const Contacts = () => {
               <span className='error-message'>
                 {errors.description && errors.description.message}
               </span>
+
+              {/* Privacy Policy Checkbox */}
+              <div className='checkBox'>
+                <input
+                  type='checkbox'
+                  name='privacyPolicy'
+                  aria-invalid={errors.privacyPolicy ? 'true' : 'false'}
+                  {...register('privacyPolicy', {
+                    required: 'You must accept the privacy policy',
+                  })}
+                />
+                <label htmlFor='privacyPolicy'>
+                  By providing my contact details, I agree to the <a href='/PrivacyPolicy'>Privacy Policy</a> and the use of my data for marketing purposes
+                </label>
+                <div className='line'></div>
+              </div>
+              <span className='error-message'>
+                {errors.privacyPolicy && errors.privacyPolicy.message}
+              </span>
+
               <div className='text-center'>
                 <button
                   className='btn-main-offer contact-btn'

@@ -5,6 +5,7 @@ import {
   faFacebook,
 } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
 
 /* eslint-disable */
 
@@ -24,15 +25,9 @@ const Footer = () => {
           <div className='col-lg-3 col-md-2 col-sm-6'>
             <div className='row'>
               <div className='col'>
-                <Link
-                  smooth={true}
-                  to='home'
-                  offset={-70}
-                  className='footer-nav'
-                >
-                  Home
-                </Link>
-                <br />
+                <RouterLink to="/" className="nav-link">
+                  Home <span className="sr-only"></span>
+                </RouterLink>
                 <Link
                   smooth={true}
                   to='services'
@@ -50,6 +45,10 @@ const Footer = () => {
                 >
                   Reviews
                 </Link>
+                <br />
+                <RouterLink to="/PrivacyPolicy" className="nav-link">
+                  Privacy Policy <span className="sr-only"></span>
+                </RouterLink>
               </div>
             </div>
           </div>
