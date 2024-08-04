@@ -80,7 +80,7 @@ const PrivacyPolicy = () => {
               </ul>
             </p>
             <p>
-              Additionally, you can opt out of some of these services by  visiting the Digital Advertising Alliance's opt-out portal here:
+              Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance's opt-out portal here:
               <ul className='pl-0'>
                 <li>
                   [DAA Opt-out](<a href="http://optout.aboutads.info/">http://optout.aboutads.info/</a>)
