@@ -176,7 +176,7 @@ const Contacts = () => {
                   })}
                 />
                 <label htmlFor='privacyPolicy'>
-                  By providing my contact details, I agree to the <Link to='/privacy-policy'>Privacy Policy</Link> and the use of my data for marketing purposes
+                  By providing my contact details, I agree to the <Link to='/PrivacyPolicy'>Privacy Policy</Link> and the use of my data for marketing purposes
                 </label>
                 <div className='line'></div>
               </div>
