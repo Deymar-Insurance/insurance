@@ -1,8 +1,11 @@
-// src/components/PrivacyPolicy.js
+import { useEffect } from 'react';
 import React from 'react';
 import Footer from './Footer';
 
 const PrivacyPolicy = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
         <div className="page">
